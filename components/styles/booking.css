@@ -1,0 +1,45 @@
+.m-book {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+}
+.booking {
+    width: 769px;
+    margin: 0;
+    padding: 5%;
+    border: 1px solid red;
+}
+.booking legend {
+    font-weight: 400;
+}
+.booking label, .booking span {
+    font-weight: 300;
+}
+.booking input, .booking input:hover {
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    padding: 2px 0;
+    margin-left: 8px;
+    font-size: 17px;
+    font-weight: 300;
+    outline: none;
+}
+.booking button, .booking button:hover {
+    border: none;
+    outline: none;
+}
+.booking .flexy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.booking div {
+    margin: 4px 0;
+}
