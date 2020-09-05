@@ -18,17 +18,21 @@
 }
 .booking label, .booking span {
     font-weight: 300;
+    color: #0a0a0a;
 }
 .booking input, .booking input:hover {
     width: 150px;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #5D5C64;
     background: transparent;
-    padding: 2px 0;
+    padding: 1px 0;
     margin-left: 8px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     outline: none;
+}
+.persona legend {
+    font-weight: 400;
 }
 .booking button, .booking button:hover {
     border: none;
@@ -37,9 +41,25 @@
 .booking .flexy {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    margin: 5px 0;
 }
-.booking div {
-    margin: 4px 0;
+.flexy div:nth-child(2) {
+    margin-left: 6%;
+}
+.persona {
+    margin: 3.5% 0 5% 0;
+}
+.booking .cont {
+    margin: 3px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.cont label {
+    margin-right: 10px;
+}
+.second-level li {
+    list-style: none;
+    margin-left: -35px;
 }
