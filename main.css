@@ -45,6 +45,19 @@ nav {
     margin-left: 5%;
     font-size: 20px;
 }
+.menu {
+    display: none;
+}
+@media (max-width: 768px) {
+    .dsktp-nav-lst {
+        display: none;
+    }
+    .menu {
+        display: block;
+        width: 38px;
+        height: 38px;
+    }
+}
 .book {
     background: #352F7C;
     padding: 8px 17px;
