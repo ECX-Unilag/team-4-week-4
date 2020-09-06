@@ -11,10 +11,14 @@
     width: 80%;
     margin: 0;
     padding: 5%;
-    border: 1px solid red;
+}
+.booking header {
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 .booking legend {
     font-weight: 400;
+    font-size: 20px;
 }
 .booking label, .booking span {
     font-weight: 300;
@@ -31,6 +35,12 @@
     font-size: 17px;
     font-weight: 300;
     outline: none;
+}
+.first-level > li {
+    margin: 2px 0;
+}
+.second-level .cont {
+    margin-left: -9px;
 }
 .persona legend {
     font-weight: 400;
@@ -105,4 +115,27 @@
     .m-book {
         padding: 5% 0;
     }
+    .persona {
+        padding-top: 3%;
+    }
+}
+.booking hr {
+    width: 90%;
+    border-color: rgba(53, 47, 124, 0.27);
+    margin: 70px 0;
+
+}
+.submit-book {
+    float: right;
+    font-size: 20px;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgba(53, 47, 124, 0.27);
+    transition: .7s ease-in-out;
+    margin-right: 50px;
+}
+.submit-book:hover {
+    background: rgba(53, 47, 124, 0.904);
+    color: white;
 }
