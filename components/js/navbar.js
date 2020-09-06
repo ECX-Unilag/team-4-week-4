@@ -8,7 +8,7 @@ let ham = '../../Assets/img/menu.svg';
 menu.onclick = function() {
     if(layerTwo.style.height === '0px' && mobMenu.style.display === 'none') {
         layerTwo.style.height = '200px';
-        mobMenu.style.display = 'block';
+        mobMenu.style.display = 'flex';
         menu.src = closes;
     } else {
         layerTwo.style.height = '0px';
