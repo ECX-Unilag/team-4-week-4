@@ -88,9 +88,12 @@ nav {
     font-size: 19px;
     margin: 7px 0;
 }
-.mbl-nav-lst li:hover, .active {
+nav ul li a:hover, .active {
     color: #352F7C;
     font-weight: 700;
+}
+nav ul .book a:hover, .book .active {
+    color: whitesmoke;
 }
 .hero {
     width: 100%;
