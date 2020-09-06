@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="main.css">
-    <title>event</title>
+    <title>Evergreen Event - simply the best</title>
 </head>
 <body>
     <nav>
@@ -12,6 +16,7 @@
             <span class="logo" name="logo">
                 EVERGREEN EVENTS
             </span>
+            <img src="Assets/img/menu.svg" id="menu" class="menu">
             <ul class="dsktp-nav-lst">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="components/pages/services.html">Services</a></li>
@@ -74,5 +79,24 @@
         <span>&copy;TEAM 4</span>
     </footer>
     <script src="script.js"></script>
+    <script>
+        let menu = document.querySelector('#menu');
+        let mobMenu = document.querySelector('.mbl-nav-lst');
+        let layerTwo = document.querySelector('.layer-two');
+        let closes = "Assets/img/close-menu.svg";
+        let ham = 'Assets/img/menu.svg';
+
+        menu.onclick = function() {
+            if(layerTwo.style.height === '0px' && mobMenu.style.display === 'none') {
+                layerTwo.style.height = '200px';
+                mobMenu.style.display = 'block';
+                menu.src = closes;
+            } else {
+                layerTwo.style.height = '0px';
+                mobMenu.style.display = 'none';  
+                menu.src = ham;     
+            }
+        }
+    </script>
 </body>
 </html>
