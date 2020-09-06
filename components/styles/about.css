@@ -1,0 +1,35 @@
+.about {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.about > header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about > header img {
+    width: 34vw;
+    height: auto;
+}
+.about > header div {
+    display: flex;
+    justify-content: center;
+    width: 66vw;
+    font-size: 4vw;
+}
+@media (max-width: 770px) {
+    .about > header img {
+        width: 45vw;
+        height: auto;
+    }
+    .about > header div {
+        display: flex;
+        justify-content: center;
+        width: 55vw;
+        font-size: 5vw;
+    }
+}
