@@ -33,3 +33,45 @@
         font-size: 5vw;
     }
 }
+.a-cont {
+    width: 80%;
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a-cont > header {
+    width: 400px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    padding: 2% 4% 1% 4%;
+    margin-bottom: 3%;
+    border-bottom: 6px solid #352F7C;
+}
+.ab-cont {
+    width: 700px;
+    margin-bottom: 8%;
+}
+.ab-cont > div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;;
+}
+.head-o {
+    padding: 6px 1px;
+    border-bottom: 2px solid rgba(53, 47, 124, 0.17);
+}
+.title {
+    font-size: 20px;
+}
+.ab-cont > div div img {
+    width: 40px;
+    height: 40px;
+}
+.no-1-cnt, .no-2-cnt {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 18px 0;
+}
