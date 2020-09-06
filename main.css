@@ -82,6 +82,7 @@ nav {
     display: none;
     list-style: none;
     text-align: center;
+    transition: .9s ease;
 }
 .mbl-nav-lst li {
     font-size: 19px;
