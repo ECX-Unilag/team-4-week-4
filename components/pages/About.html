@@ -39,7 +39,7 @@
             <img src="../../Assets/img/about.png">
             <div>About Us</div>
         </header>
-        <div>
+        <div class="a-cont">
             <header>EVERGREEN EVENTS</header>
             <div class="ab-cont">
                 <div>
@@ -77,5 +77,33 @@
     </footer>
     <script src="../../script.js"></script>
     <script src="../js/navbar.js"></script>
+    <script>
+        let arrowOne = document.querySelector('#arrow-1');
+        let contOne = document.querySelector('.no-1-cnt');
+        let arrowTwo = document.querySelector('#arrow-2');
+        let contTwo = document.querySelector('.no-2-cnt');
+        contOne.style.display = 'block';
+        contTwo.style.display = 'none';
+        arrowTwo.style.transform = 'rotate(-90deg)';
+        
+        arrowOne.onclick = function() {
+            if(contOne.style.display == 'block') {
+                arrowOne.style.transform = 'rotate(-90deg)';
+                contOne.style.display = 'none';
+            } else {
+                arrowOne.style.transform = 'rotate(0deg)';
+                contOne.style.display = 'block';
+            }            
+        }
+        arrowTwo.onclick = function() {
+            if(contTwo.style.display == 'block') {
+                arrowTwo.style.transform = 'rotate(-90deg)';
+                contTwo.style.display = 'none';
+            } else {
+                arrowTwo.style.transform = 'rotate(0deg)';
+                contTwo.style.display = 'block';
+            }            
+        }
+    </script>
 </body>
 </html>
