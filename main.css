@@ -5,6 +5,7 @@ html, body {
     background: #E5E5E5;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    overflow: hidden;
 }
 * {
     box-sizing: border-box;
