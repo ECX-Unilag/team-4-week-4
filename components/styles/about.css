@@ -23,13 +23,13 @@
 }
 @media (max-width: 770px) {
     .about > header img {
-        width: 45vw;
+        width: 46vw;
         height: auto;
     }
     .about > header div {
         display: flex;
         justify-content: center;
-        width: 55vw;
+        width: 54vw;
         font-size: 5vw;
     }
 }
