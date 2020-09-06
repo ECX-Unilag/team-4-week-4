@@ -25,6 +25,7 @@ nav {
 .layer-one {
     width: 100%;
     margin: 0;
+    padding: 2px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -47,15 +48,19 @@ nav {
 }
 .menu {
     display: none;
+    cursor: pointer;
 }
 @media (max-width: 768px) {
+    .logo {
+        font-size: 6vw;
+    }
     .dsktp-nav-lst {
         display: none;
     }
     .menu {
         display: block;
-        width: 38px;
-        height: 38px;
+        width: 36px;
+        height:36px;
     }
 }
 .book {
