@@ -2,9 +2,16 @@
 html, body {
     width: 100%;
     margin: 0;
+    height: 100%;
     background: #E5E5E5;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 * {
     box-sizing: border-box;
@@ -77,9 +84,7 @@ nav {
     padding: 0;
     height: 0px;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     transition: 1s ease;
 }
 .mbl-nav-lst {
@@ -87,6 +92,7 @@ nav {
     display: none;
     list-style: none;
     text-align: center;
+    transition: .9s ease;
 }
 .mbl-nav-lst li {
     font-size: 19px;
