@@ -56,19 +56,6 @@ nav {
     display: none;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-    .logo {
-        font-size: 6vw;
-    }
-    .dsktp-nav-lst {
-        display: none;
-    }
-    .menu {
-        display: block;
-        width: 36px;
-        height:36px;
-    }
-}
 .book {
     background: #352F7C;
     padding: 8px 17px;
@@ -84,18 +71,33 @@ nav {
     height: 0px;
     overflow: hidden;
     text-align: center;
-    transition: 1s ease;
+    transition: 0.8s ease;
 }
 .mbl-nav-lst {
     margin: 8px 0;
     display: none;
     list-style: none;
-    text-align: center;
-    transition: .9s ease;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s ease;
+    padding-inline-start: 0px;
 }
 .mbl-nav-lst li {
     font-size: 19px;
-    margin: 13px 0;
+    margin: 7px 0;
+}
+@media (max-width: 768px) {
+    .logo {
+        font-size: 6vw;
+    }
+    .dsktp-nav-lst {
+        display: none;
+    }
+    .menu {
+        display: block;
+        width: 36px;
+        height:36px;
+    }
 }
 .hero {
     width: 100%;
