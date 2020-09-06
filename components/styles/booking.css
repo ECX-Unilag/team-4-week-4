@@ -8,7 +8,7 @@
     padding: 5% 10%;
 }
 .booking {
-    width: 769px;
+    width: 80%;
     margin: 0;
     padding: 5%;
     border: 1px solid red;
@@ -19,15 +19,16 @@
 .booking label, .booking span {
     font-weight: 300;
     color: #0a0a0a;
+    font-size: 18px;
 }
 .booking input, .booking input:hover {
-    width: 150px;
+    width: 120px;
     border: none;
     border-bottom: 1px solid #5D5C64;
     background: transparent;
     padding: 1px 0;
     margin-left: 8px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 300;
     outline: none;
 }
@@ -62,4 +63,46 @@
 .second-level li {
     list-style: none;
     margin-left: -35px;
+}
+@media (max-width: 1255px) and (min-width: 900px) {
+    .booking {
+        width: 90%;
+    }
+    .booking input, .booking input:hover {
+        width: 17vw;
+    }
+    .booking label, .booking span {
+        font-size: 16px;
+    }
+}
+@media (max-width: 899px) and (min-width: 638px) {
+    .booking {
+        width: 100%;
+    }
+    .booking input, .booking input:hover {
+        width: 16vw;
+    }
+    .booking label, .booking span {
+        font-size: 16px;
+    }
+}
+@media (max-width: 637px)  {
+    .booking {
+        width: 100%;
+    }
+    .booking .flexy {
+        display: block;
+    }
+    .flexy  div:nth-child(2) {
+        margin: 4px 0;
+    }
+    .flexy  div:nth-child(2) label {
+        margin: 6px 0;
+    }
+    .booking label, .booking span {
+        font-size: 19px;
+    }
+    .m-book {
+        padding: 5% 0;
+    }
 }
